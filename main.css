@@ -34,6 +34,10 @@
     font-weight: 500;
     line-height: 40px;
 }
+
+.portfolio {
+    padding: 0 60px;
+}
 .contactUs {
     background-image: url(./assets/backgrounds/c_image.jpg);
     height: 60vh;
