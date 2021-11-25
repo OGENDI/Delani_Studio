@@ -74,6 +74,6 @@ SOFTWARE.
 
 Github Profile - [Derick Mokonge](https://github.com/OGENDI)
 
-LinkedIn - [Derick Mokonge](www.linkedin.com/in/derick-ogendi)
+LinkedIn - [Derick Mokonge](https://www.linkedin.com/in/derick-ogendi/)
 
 [Go Back to the top](#Delani_Studio)
