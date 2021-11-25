@@ -40,7 +40,7 @@
     <div class="activities container">
         <h1 class="text-center">WHAT WE DO</h1>
         <div class="row">
-            <div class="col-4"><img src="./assets/services_icons/design_icon.png" alt="design icon">
+            <div class="col-4"><img src="./assets/services_icons/design_icon.png" alt="design icon" id="desigining">
                <div id="design">
                 <h5>Design</h5>
                 <p>Our design practice offers a full range of services including brand strategy, interaction 
@@ -49,7 +49,7 @@
                 to make sure what gets built is what is needed.</p>
                 </div>
             </div>
-            <div class="col-4"><img src="./assets/services_icons/dev_icon.png" alt="development icon">
+            <div class="col-4"><img src="./assets/services_icons/dev_icon.png" alt="development icon" id="develop">
                 <div id="development">
                     <h5>Development</h5>
                     <p>All engineers are fluent in the latest enterprise, mobile and web development 
@@ -58,8 +58,8 @@
                         pair programming.</p>
                     </div>
             </div>
-            <div class="col-4"><img src="./assets/services_icons/product_icon.png" alt="product icon">
-                <div id="design">
+            <div class="col-4"><img src="./assets/services_icons/product_icon.png" alt="product icon" id="product">
+                <div id="productDevelopment">
                     <h5>Product Management</h5>
                     <p>Planning and development is iterative. Because we are constantly coding and 
                         testing, the products we build are always ready to go live. This iterative 
@@ -70,28 +70,43 @@
     </div>
     <div class="portfolio">
         <h1 class="text-center">PORTFOLIO</h1>
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-3"><img src="./assets/portfolio/work4.jpg" alt="work 4 image"></div>
             <div class="col-3"><img src="./assets/portfolio/work3.jpg" alt="ontario image"></div>
             <div class="col-3"><img src="./assets/portfolio/work2.jpg" alt="work 2 image"></div>
             <div class="col-3"><img src="./assets/portfolio/work1.jpg" alt="work 1 image"></div>            
         </div>
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-3"><img src="./assets/portfolio/work5.jpg" alt="work 5 image"></div>
             <div class="col-3"><img src="./assets/portfolio/work6.jpg" alt="work 6 image"></div>
             <div class="col-3"><img src="./assets/portfolio/work7.jpg" alt="work 7 image"></div>
             <div class="col-3"><img src="./assets/portfolio/work8.jpg" alt="work 8 image"></div>
         </div>
     </div>
-    <div class="contactUs text-white ">
+    <div class="contactUs text-white text-center">
         <h1 class="text-center">CONTACT US</h1>
-        <form action="">
-            <input type="text" id="name" placeholder="Name...">
-            <input type="email" id="email" placeholder="Email...">
-            <input type="text" id="message" placeholder="Your message here...">
+        <form action="" id="userForm">
+            <input type="text" id="userName" placeholder="Name...">
+            <input type="email" id="email" placeholder="Email..."><br>
+            <textarea name="" id="message" cols="50" rows="10"></textarea><br>
+            <input type="submit" class="btn btn-outline-success">
         </form>
     </div>
-
+ <footer class="text-center p-5">
+     <div class="socialIcons mb-4">
+         <img src="./assets/social_icons/twitter.png" alt="twitter icon">
+         <img src="./assets/social_icons/dribble.png" alt="dribble icon">
+         <img src="./assets/social_icons/facebook.png" alt="facebook icon">
+         <img src="./assets/social_icons/g_plus.png" alt="gmail icon">
+         <img src="./assets/social_icons/skype.png" alt="skype icon">
+         <img src="./assets/social_icons/stumble_upon.png" alt="stumble icon">
+         <img src="./assets/social_icons/behance.png" alt="behance icon">
+         <img src="./assets/social_icons/pinterest.png" alt="pinterest icon">
+         <img src="./assets/social_icons/flickr.png" alt="flicker icon">
+         <img src="./assets/social_icons/you_tube.png" alt="youtube icon">
+     </div>
+     <p>DELANI STUDIO <br> 2019</p>
+ </footer>
 <script src="delani.js"></script>
 </body>
 </html>
