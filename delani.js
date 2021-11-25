@@ -16,6 +16,14 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $('#product').click(function(){
+        $('#productDevelopment').show();
+    });
+    $('#productDevelopment').click(function(){
+        $('#productDevelopment').slideUp();
+    });
+});
 
 
 
