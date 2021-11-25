@@ -23,7 +23,7 @@
 
 .services {
     background-image: url(./assets/backgrounds/s_image.jpg);
-    height: 60vh;
+    height: 70vh;
     background-size: cover;
 
 }
@@ -31,7 +31,8 @@
 .services > * {
     position: relative;
     top: 30%;
-    font-weight: 700;
+    font-weight: 500;
+    line-height: 40px;
 }
 .contactUs {
     background-image: url(./assets/backgrounds/c_image.jpg);
