@@ -72,7 +72,7 @@ SOFTWARE.
 
 ## Authors Info
 
-Github Profile - [Derick Mokonge](https://github.com/OGENDI/Delani_Studio)
+Github Profile - [Derick Mokonge](https://github.com/OGENDI)
 
 LinkedIn - [Derick Mokonge](www.linkedin.com/in/derick-ogendi)
 
